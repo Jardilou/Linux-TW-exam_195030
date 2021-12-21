@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/styleList.css">
+ 
+</head>
+<body>
+
+
+
+<h1>Liste des pièces</h1>
+<u1>
+    <% for (let i =0; i <pièces_infos.length; i++){ %>
+        <%= pièces_infos[i].nom_pièce %>   
+        <% } %>
+    
+
+</u1>
+<form>
+    <input type="submit" name = "Encoder une autre pièce" value="Encoder une autre pièce" formaction="/room/add"></br>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/styleList.css">
+ 
+</head>
+<body>
+
+
+
+<h1>Encoder les données de la pièce</h1>
+<form action = "/room/add" method = "POST">
+    Pièce : <input type = "text" name = "nom_pièce" id ="nom_pièce" value = "<%= nom_pièce %> "></br>
+    Largeur : <input type ="number" name = "largeur" id = "largeur" value = "<%= largeur %> "></br>
+    Longueur : <input type ="number" name = "longueur" id = "longueur" value = "<%= longueur %> "></br>
+    <input type="submit" name = "Enregistrer" value = "Enregistrer" formaction="/room/list"></br>
+</form>
+
+</body>
+</html>
